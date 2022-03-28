@@ -13,6 +13,7 @@ public class Finish : MonoBehaviour
         if(other.tag == "Player") // if the player collides with the finish line do sum
         {
             finishEffect.Play();
+            GetComponent<AudioSource>().Play();
             Invoke("ReloadScene", finishDelay);
         }
     }
