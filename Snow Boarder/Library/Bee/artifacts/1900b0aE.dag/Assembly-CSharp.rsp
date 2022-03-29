@@ -346,7 +346,9 @@
 "Assets/Scripts/Crash.cs"
 "Assets/Scripts/DustTrail.cs"
 "Assets/Scripts/Finish.cs"
+"Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/SkinManager.cs"
 -langversion:8.0
 
 /deterministic
