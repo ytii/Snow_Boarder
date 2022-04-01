@@ -349,7 +349,8 @@
 "Assets/Scripts/Finish.cs"
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PlayerController.cs"
-"Assets/Scripts/SkinManager.cs"
+"Assets/Scripts/Test/CharacterDB.cs"
+"Assets/Scripts/Test/CharacterSelect.cs"
 -langversion:8.0
 
 /deterministic
