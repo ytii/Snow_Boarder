@@ -353,6 +353,8 @@
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PlayerSpawn.cs"
+"Assets/Scripts/SceneManagement.cs"
+"Assets/Scripts/VirtualCam.cs"
 -langversion:8.0
 
 /deterministic

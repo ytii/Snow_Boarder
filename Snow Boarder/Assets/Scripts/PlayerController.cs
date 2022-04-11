@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float torque = 1f; // Apply torque to char
     Rigidbody2D rb2d; // allows for "rb2d" to be used throughout the script rather than only in start/update
     SurfaceEffector2D surfaceEffector2D;
-    [SerializeField] float boostS = 30f; // speed up
+    [SerializeField] float boostS; // speed up
     [SerializeField] float defaultS = 20f; // return to normal speed
     bool canMove = true;
 
