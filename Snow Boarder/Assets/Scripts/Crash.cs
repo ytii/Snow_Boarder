@@ -30,6 +30,6 @@ public class Crash : MonoBehaviour
 
     void ReloadScene()
     {
-        SceneManager.LoadScene(Death);
+        SceneManager.LoadScene("Death");
     }
 }

@@ -198,7 +198,7 @@ MonoBehaviour:
     topRight: {r: 0, g: 0.9033847, b: 1, a: 1}
     bottomLeft: {r: 0, g: 0.53527784, b: 1, a: 1}
     bottomRight: {r: 0, g: 0.9033847, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 11400000, guid: 8092bc01ee26fc841b5257a967b3a69e, type: 2}
+  m_fontColorGradientPreset: {fileID: 11400000, guid: 806f2e17eef4dfb4589bb5825650e9fa, type: 2}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
@@ -398,7 +398,7 @@ MonoBehaviour:
     topRight: {r: 0, g: 0.9033847, b: 1, a: 1}
     bottomLeft: {r: 0, g: 0.53527784, b: 1, a: 1}
     bottomRight: {r: 0, g: 0.9033847, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 11400000, guid: 8092bc01ee26fc841b5257a967b3a69e, type: 2}
+  m_fontColorGradientPreset: {fileID: 11400000, guid: 806f2e17eef4dfb4589bb5825650e9fa, type: 2}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
@@ -619,7 +619,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0, g: 0, b: 0, a: 0.078431375}
+    m_NormalColor: {r: 0, g: 0, b: 0, a: 0.31764707}
     m_HighlightedColor: {r: 0, g: 0.13333334, b: 1, a: 0.0627451}
     m_PressedColor: {r: 0, g: 0.80855703, b: 1, a: 0.0627451}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.0627451}
@@ -766,7 +766,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0.47417766, b: 0.7529412, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -873,7 +873,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0, g: 0, b: 0, a: 0.078431375}
+    m_NormalColor: {r: 0, g: 0, b: 0, a: 0.31764707}
     m_HighlightedColor: {r: 0, g: 0.13333334, b: 1, a: 0.0627451}
     m_PressedColor: {r: 0, g: 0.80855703, b: 1, a: 0.0627451}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.0627451}
@@ -1095,7 +1095,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0, g: 0, b: 0, a: 0.078431375}
+    m_NormalColor: {r: 0, g: 0, b: 0, a: 0.31764707}
     m_HighlightedColor: {r: 0, g: 0.13428664, b: 1, a: 0.0627451}
     m_PressedColor: {r: 0, g: 0.80855703, b: 1, a: 0.0627451}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.0627451}
@@ -1183,7 +1183,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1550467377
 Transform:
   m_ObjectHideFlags: 0
@@ -1234,7 +1234,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 24, y: -159}
+  m_AnchoredPosition: {x: 18, y: -170}
   m_SizeDelta: {x: 395, y: 31}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1613833612
@@ -1272,10 +1272,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You Died
+  m_text: YOU DIED
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 881fd96d3a86131428d42841a26f5a12, type: 2}
-  m_sharedMaterial: {fileID: 161665094847407653, guid: 881fd96d3a86131428d42841a26f5a12, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: cf93e72518edd45458935397d06b3e3e, type: 2}
+  m_sharedMaterial: {fileID: -628706105736106432, guid: cf93e72518edd45458935397d06b3e3e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1286,11 +1286,11 @@ MonoBehaviour:
   m_enableVertexGradient: 1
   m_colorMode: 1
   m_fontColorGradient:
-    topLeft: {r: 0, g: 0.53333336, b: 1, a: 1}
-    topRight: {r: 0, g: 0.53333336, b: 1, a: 1}
-    bottomLeft: {r: 0, g: 0.53333336, b: 1, a: 1}
-    bottomRight: {r: 0, g: 0.53333336, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 11400000, guid: 8092bc01ee26fc841b5257a967b3a69e, type: 2}
+    topLeft: {r: 1, g: 0.09803922, b: 0, a: 1}
+    topRight: {r: 0.4627451, g: 0, b: 0.11372549, a: 1}
+    bottomLeft: {r: 1, g: 0.09803922, b: 0, a: 1}
+    bottomRight: {r: 0.4627451, g: 0, b: 0.11372549, a: 1}
+  m_fontColorGradientPreset: {fileID: 11400000, guid: 806f2e17eef4dfb4589bb5825650e9fa, type: 2}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
@@ -1299,8 +1299,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 89.3
-  m_fontSizeBase: 89.3
+  m_fontSize: 69
+  m_fontSizeBase: 69
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1507,7 +1507,7 @@ MonoBehaviour:
     topRight: {r: 0, g: 0.9033847, b: 1, a: 1}
     bottomLeft: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
     bottomRight: {r: 0, g: 0.9033847, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 11400000, guid: 8092bc01ee26fc841b5257a967b3a69e, type: 2}
+  m_fontColorGradientPreset: {fileID: 11400000, guid: 806f2e17eef4dfb4589bb5825650e9fa, type: 2}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
