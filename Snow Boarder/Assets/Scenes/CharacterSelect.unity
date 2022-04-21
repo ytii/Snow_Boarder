@@ -207,8 +207,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -407,8 +407,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -595,8 +595,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -28.332804, y: -112.352165}
-  m_SizeDelta: {x: 247.0914, y: 33.5082}
+  m_AnchoredPosition: {x: -67.05136, y: -106.94958}
+  m_SizeDelta: {x: 169.6543, y: 22.703}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &638649371
 MonoBehaviour:
@@ -727,8 +727,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 36, y: -70}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 81, y: -103.36}
+  m_SizeDelta: {x: 92.7966, y: 96.394}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &883839420
 GameObject:
@@ -849,8 +849,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -28.332804, y: -75.49312}
-  m_SizeDelta: {x: 247.0914, y: 33.5082}
+  m_AnchoredPosition: {x: -67.051, y: -71.89139}
+  m_SizeDelta: {x: 169.65, y: 26.3047}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &894273338
 MonoBehaviour:
@@ -978,13 +978,17 @@ MonoBehaviour:
   characters:
   - prefab: {fileID: 6706859961243618890, guid: 1c7a44acd73f93a46960c188b3868d74, type: 3}
     name: John
+    description: 
     icon: {fileID: 21300000, guid: 8276ee3453fe03e4aa06bdbf292f817a, type: 3}
   - prefab: {fileID: 6706859961243618890, guid: dec1aaf0c0c11e44db73d3a54efded27, type: 3}
     name: Tom
+    description: 'Description: Tom has a boost ability, but he cannot stop or move
+      any slower than his original speed. Fast or Faster.'
     icon: {fileID: 21300000, guid: 4d89217181e012040ab884fe455c8005, type: 3}
   currentCharacter:
     prefab: {fileID: 0}
     name: 
+    description: 
     icon: {fileID: 0}
 --- !u!4 &1064777857
 Transform:
@@ -1113,8 +1117,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -29.877106, y: -69.64607}
-  m_SizeDelta: {x: 247.0914, y: 33.5082}
+  m_AnchoredPosition: {x: -67.824, y: -69.64607}
+  m_SizeDelta: {x: 171.2, y: 26.752}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1445173405
 MonoBehaviour:
@@ -1570,8 +1574,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

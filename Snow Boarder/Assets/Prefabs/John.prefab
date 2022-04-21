@@ -4913,7 +4913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   torque: 8
-  boostS: 0
+  boostS: 1.5
   defaultS: 20
 --- !u!114 &6706859961243618892
 MonoBehaviour:

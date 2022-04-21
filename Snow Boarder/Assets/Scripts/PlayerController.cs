@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
 
     void BoostSpeed()
     {
-        if(Input.GetKey(KeyCode.W))
+        if(Input.GetKey(KeyCode.Space))
         {
             surfaceEffector2D.speed = boostS;
             Debug.Log("Fast");
