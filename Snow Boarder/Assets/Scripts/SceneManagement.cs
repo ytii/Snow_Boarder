@@ -12,7 +12,7 @@ public class SceneManagement : MonoBehaviour
 
     public void TerminateApplication()
     {
+        Debug.Log("Quit");
         Application.Quit();
-        print("quit");
     }
 }
