@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Education; OS build 19044.1586; Version 2009; 64bit' Language: 'en' Physical Memory: 16247 MB
+OS: 'Windows 10 Education; OS build 19044.1645; Version 2009; 64bit' Language: 'en' Physical Memory: 16247 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/9q.h4/Documents/GitHub/Snow_Boarder/Snow Boarder
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63050
+58479
 Successfully changed project path to: C:/Users/9q.h4/Documents/GitHub/Snow_Boarder/Snow Boarder
 C:/Users/9q.h4/Documents/GitHub/Snow_Boarder/Snow Boarder
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 88.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 89.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,726 +35,259 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002306 seconds.
+Registered in 0.002245 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 92.87 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 89.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.370 seconds
+- Completed reload, in  1.276 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003485 seconds.
+Registered in 0.003899 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 96.21 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 90.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.124 seconds
+- Completed reload, in  1.066 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3550 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 208.3 MB.
 System memory in use after: 208.5 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4013.
-Total: 2.245900 ms (FindLiveObjects: 0.256900 ms CreateObjectMapping: 0.174400 ms MarkObjects: 1.755800 ms  DeleteObjects: 0.057800 ms)
+Total: 3.109200 ms (FindLiveObjects: 0.303900 ms CreateObjectMapping: 0.233700 ms MarkObjects: 2.487700 ms  DeleteObjects: 0.082400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/SceneManagement.cs
-  artifactKey: Guid(3550171ad8aeb8349bd1871d87cee25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManagement.cs using Guid(3550171ad8aeb8349bd1871d87cee25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b30ca97f26045bb8ef169fddf2522c5') in 0.049184 seconds 
+  path: Assets/Scenes/Death.unity
+  artifactKey: Guid(b3158f4900cdde744ac47598222163fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Death.unity using Guid(b3158f4900cdde744ac47598222163fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eebddcbd899a15ce75548e9b4a22ca6') in 0.017796 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.5 MB.
+System memory in use after: 136.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4013.
+Total: 2.893200 ms (FindLiveObjects: 0.242900 ms CreateObjectMapping: 0.176500 ms MarkObjects: 2.457000 ms  DeleteObjects: 0.016000 ms)
+
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003456 seconds.
+Registered in 0.005020 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.002 seconds
+- Completed reload, in  0.908 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 206.4 MB.
 System memory in use after: 206.6 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4017.
-Total: 2.287000 ms (FindLiveObjects: 0.256100 ms CreateObjectMapping: 0.168500 ms MarkObjects: 1.841200 ms  DeleteObjects: 0.020300 ms)
+Total: 2.156200 ms (FindLiveObjects: 0.256600 ms CreateObjectMapping: 0.178300 ms MarkObjects: 1.704000 ms  DeleteObjects: 0.016400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.527485 seconds.
-  path: Assets/Scripts/SceneManagement.cs
-  artifactKey: Guid(3550171ad8aeb8349bd1871d87cee25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManagement.cs using Guid(3550171ad8aeb8349bd1871d87cee25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbb603b6b6fd7b21af6c7331c52fe15') in 0.006249 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.277359 seconds.
-  path: Assets/Scripts/PlayerController.cs
-  artifactKey: Guid(77f57911c45995a4db3e6649f00a05f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerController.cs using Guid(77f57911c45995a4db3e6649f00a05f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b77d639c8837d5fc4b74accf2764967') in 0.002322 seconds 
+  Time since last request: 130.904173 seconds.
+  path: Assets/Prefabs/Option.prefab
+  artifactKey: Guid(7163a336603d4e94097de1ae013eb555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Option.prefab using Guid(7163a336603d4e94097de1ae013eb555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2428a3644df55231b78c6e5c99262bb9') in 0.068332 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005313 seconds.
+Registered in 0.004817 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.043 seconds
+- Completed reload, in  0.970 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 206.5 MB.
 System memory in use after: 206.7 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4021.
-Total: 2.599000 ms (FindLiveObjects: 0.273700 ms CreateObjectMapping: 0.171600 ms MarkObjects: 2.130600 ms  DeleteObjects: 0.021900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003475 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.936 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 206.5 MB.
-System memory in use after: 206.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4025.
-Total: 2.159100 ms (FindLiveObjects: 0.246000 ms CreateObjectMapping: 0.165500 ms MarkObjects: 1.733600 ms  DeleteObjects: 0.013200 ms)
+Total: 2.159200 ms (FindLiveObjects: 0.242900 ms CreateObjectMapping: 0.175200 ms MarkObjects: 1.727400 ms  DeleteObjects: 0.012700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 58.717015 seconds.
-  path: Assets/Scripts/PauseMenu.cs
-  artifactKey: Guid(ca0ff528a3ba52845a7eb97b848c1485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PauseMenu.cs using Guid(ca0ff528a3ba52845a7eb97b848c1485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71bfe60b421ac7a445455d582e22248') in 0.009029 seconds 
+  Time since last request: 51.762260 seconds.
+  path: Assets/Scripts/CharacterSelectionUI.cs
+  artifactKey: Guid(41f0c03daa673914cb017141ddd94c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CharacterSelectionUI.cs using Guid(41f0c03daa673914cb017141ddd94c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581c77b7bd345c82b18834bdba1d352b') in 0.017276 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003427 seconds.
+Registered in 0.003574 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.898 seconds
+- Completed reload, in  0.901 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 206.5 MB.
 System memory in use after: 206.8 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4029.
-Total: 2.628000 ms (FindLiveObjects: 0.378900 ms CreateObjectMapping: 0.220600 ms MarkObjects: 2.006700 ms  DeleteObjects: 0.020300 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4025.
+Total: 2.662600 ms (FindLiveObjects: 0.301500 ms CreateObjectMapping: 0.179000 ms MarkObjects: 2.162300 ms  DeleteObjects: 0.018500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 87.251582 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
-  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482a362b8fe5ce36b302051eaf90a735') in 0.103025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Prefabs/Option.prefab
-  artifactKey: Guid(7163a336603d4e94097de1ae013eb555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Option.prefab using Guid(7163a336603d4e94097de1ae013eb555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6855474b4e0d2437713a690f7107cb4a') in 0.032881 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 43.250262 seconds.
-  path: Assets/Scenes/Options.unity
-  artifactKey: Guid(d80ed51154eb25b41b6fcb94d445ec76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Options.unity using Guid(d80ed51154eb25b41b6fcb94d445ec76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57137174a77715a55212a1ab1e64e4da') in 0.007186 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003705 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.887 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 210.9 MB.
-System memory in use after: 211.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4073.
-Total: 2.153100 ms (FindLiveObjects: 0.257300 ms CreateObjectMapping: 0.168600 ms MarkObjects: 1.713500 ms  DeleteObjects: 0.013100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.888971 seconds.
-  path: Assets/Snowflakes/512X512/3.png
-  artifactKey: Guid(597d89f3d69a3704888b99149e675121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowflakes/512X512/3.png using Guid(597d89f3d69a3704888b99149e675121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b151112c7f97f17b9e65a05adc3e68c') in 0.098240 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.875679 seconds.
-  path: Assets/Scenes/CharacterSelect.unity
-  artifactKey: Guid(2e8a15fe62b35a54f8c7118fe5fd8715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CharacterSelect.unity using Guid(2e8a15fe62b35a54f8c7118fe5fd8715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03e9d4c5b8f9e8cb5191e8d3d723485') in 0.008397 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 57.335344 seconds.
-  path: Assets/Text.asset
-  artifactKey: Guid(8092bc01ee26fc841b5257a967b3a69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Text.asset using Guid(8092bc01ee26fc841b5257a967b3a69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed8d8b0b71b25d19af5f5288a0e0423') in 0.004698 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 41.632230 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5795d760e6b9736baaba957236d78a65') in 0.052674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.455091 seconds.
-  path: Assets/Scenes/CharacterSelect.unity
-  artifactKey: Guid(2e8a15fe62b35a54f8c7118fe5fd8715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CharacterSelect.unity using Guid(2e8a15fe62b35a54f8c7118fe5fd8715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2537181cbf5be06998de193dea5fd018') in 0.002790 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005319 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.903 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3527 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.4 MB.
-System memory in use after: 212.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4112.
-Total: 2.229300 ms (FindLiveObjects: 0.258000 ms CreateObjectMapping: 0.165700 ms MarkObjects: 1.784900 ms  DeleteObjects: 0.019800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 93.815234 seconds.
-  path: Assets/Scenes/Options.unity
-  artifactKey: Guid(d80ed51154eb25b41b6fcb94d445ec76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Options.unity using Guid(d80ed51154eb25b41b6fcb94d445ec76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37df3683bcda504eb4da8e00b6b172c5') in 0.014166 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 78.459063 seconds.
-  path: Assets/Scenes/CharacterSelect.unity
-  artifactKey: Guid(2e8a15fe62b35a54f8c7118fe5fd8715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CharacterSelect.unity using Guid(2e8a15fe62b35a54f8c7118fe5fd8715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56dbf56302643952d59dc402be88246c') in 0.002221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 489.672352 seconds.
-  path: Assets/Scenes/Level2.unity
-  artifactKey: Guid(7a085f165520c5c459a0005e17cdb536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level2.unity using Guid(7a085f165520c5c459a0005e17cdb536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58dbfaca8c6138a69ec7df93b511c099') in 0.007616 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.469833 seconds.
-  path: Assets/Scenes/Level2 1.unity
-  artifactKey: Guid(4c0e54030bfa3ae4fa7d606517ca4ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level2 1.unity using Guid(4c0e54030bfa3ae4fa7d606517ca4ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b4e6692b194add8f2f22be0f6d3c41') in 0.002961 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.369151 seconds.
+  Time since last request: 91.031530 seconds.
   path: Assets/Scenes/Level3.unity
   artifactKey: Guid(4c0e54030bfa3ae4fa7d606517ca4ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level3.unity using Guid(4c0e54030bfa3ae4fa7d606517ca4ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23f5c508f59154ea5ed226703d0dbc1') in 0.002503 seconds 
+Start importing Assets/Scenes/Level3.unity using Guid(4c0e54030bfa3ae4fa7d606517ca4ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f806e02510de082c654cf83733c8d3e') in 0.013655 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.762585 seconds.
-  path: Assets/Scenes/Options.unity
-  artifactKey: Guid(d80ed51154eb25b41b6fcb94d445ec76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Options.unity using Guid(d80ed51154eb25b41b6fcb94d445ec76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f27e7a47257a089082620a69af90c49') in 0.002862 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003910 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.078 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.4 MB.
-System memory in use after: 212.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4116.
-Total: 2.599400 ms (FindLiveObjects: 0.278900 ms CreateObjectMapping: 0.182800 ms MarkObjects: 2.103000 ms  DeleteObjects: 0.033200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1040.997790 seconds.
+  Time since last request: 96.488424 seconds.
   path: Assets/Scenes/Level2.unity
   artifactKey: Guid(7a085f165520c5c459a0005e17cdb536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level2.unity using Guid(7a085f165520c5c459a0005e17cdb536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd72e62c09137305850ed4ca184fc01') in 0.020263 seconds 
+Start importing Assets/Scenes/Level2.unity using Guid(7a085f165520c5c459a0005e17cdb536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66be305c2ea44d9721512d6bddd5847') in 0.003621 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.506946 seconds.
+  Time since last request: 14.293156 seconds.
+  path: Assets/Scenes/Level2.unity
+  artifactKey: Guid(7a085f165520c5c459a0005e17cdb536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level2.unity using Guid(7a085f165520c5c459a0005e17cdb536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e558ec25cdc2d3390cacad348e29322') in 0.003486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.853601 seconds.
   path: Assets/Scenes/Level3.unity
   artifactKey: Guid(4c0e54030bfa3ae4fa7d606517ca4ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level3.unity using Guid(4c0e54030bfa3ae4fa7d606517ca4ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5280496edf1683d8cae2934b274a22b') in 0.008033 seconds 
+Start importing Assets/Scenes/Level3.unity using Guid(4c0e54030bfa3ae4fa7d606517ca4ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6d325c772322355028ad42ac1b1e1d') in 0.003093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 714.304475 seconds.
+  path: Assets/Scenes/CharacterSelect.unity
+  artifactKey: Guid(2e8a15fe62b35a54f8c7118fe5fd8715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CharacterSelect.unity using Guid(2e8a15fe62b35a54f8c7118fe5fd8715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1581d56dec56bdb5ad826d2ebb0ba096') in 0.008304 seconds 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003608 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.906 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.5 MB.
-System memory in use after: 212.7 MB.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.9 MB.
+System memory in use after: 137.1 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4120.
-Total: 2.333400 ms (FindLiveObjects: 0.296600 ms CreateObjectMapping: 0.207500 ms MarkObjects: 1.809200 ms  DeleteObjects: 0.019300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003498 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.921 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.5 MB.
-System memory in use after: 212.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4124.
-Total: 2.390500 ms (FindLiveObjects: 0.269600 ms CreateObjectMapping: 0.202900 ms MarkObjects: 1.897000 ms  DeleteObjects: 0.020000 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4025.
+Total: 3.131100 ms (FindLiveObjects: 0.255900 ms CreateObjectMapping: 0.177500 ms MarkObjects: 2.683900 ms  DeleteObjects: 0.012800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 435.419162 seconds.
+  Time since last request: 211.920634 seconds.
+  path: Assets/Scenes/Level3.unity
+  artifactKey: Guid(4c0e54030bfa3ae4fa7d606517ca4ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level3.unity using Guid(4c0e54030bfa3ae4fa7d606517ca4ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724515aa4efbd937f3de2c719626dbb7') in 0.008820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.601623 seconds.
   path: Assets/Scenes/Level1.unity
   artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15deb8a78aa8f416dd83d69680dd142d') in 0.018487 seconds 
+Start importing Assets/Scenes/Level1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529ede9f231b7529a867aefa5c7cda8f') in 0.009121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.552911 seconds.
+  path: Assets/Scenes/Level3.unity
+  artifactKey: Guid(4c0e54030bfa3ae4fa7d606517ca4ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level3.unity using Guid(4c0e54030bfa3ae4fa7d606517ca4ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0665aece74651b8113559da63110f3e3') in 0.004734 seconds 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004285 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.889 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.5 MB.
-System memory in use after: 212.7 MB.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.9 MB.
+System memory in use after: 137.1 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4128.
-Total: 2.407900 ms (FindLiveObjects: 0.274600 ms CreateObjectMapping: 0.176900 ms MarkObjects: 1.937900 ms  DeleteObjects: 0.017500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003461 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.900 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.5 MB.
-System memory in use after: 212.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4132.
-Total: 2.349800 ms (FindLiveObjects: 0.284000 ms CreateObjectMapping: 0.185600 ms MarkObjects: 1.860200 ms  DeleteObjects: 0.019400 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4025.
+Total: 3.105400 ms (FindLiveObjects: 0.252100 ms CreateObjectMapping: 0.160000 ms MarkObjects: 2.679000 ms  DeleteObjects: 0.013200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 102.332400 seconds.
+  Time since last request: 601.797650 seconds.
+  path: Assets/Scenes/Level3.unity
+  artifactKey: Guid(4c0e54030bfa3ae4fa7d606517ca4ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level3.unity using Guid(4c0e54030bfa3ae4fa7d606517ca4ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3fa684b96f56226e1ac6ad8f084872d') in 0.007640 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.9 MB.
+System memory in use after: 137.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4025.
+Total: 3.064000 ms (FindLiveObjects: 0.247600 ms CreateObjectMapping: 0.152700 ms MarkObjects: 2.651100 ms  DeleteObjects: 0.011700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 309.937944 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffdc952be010e896b96fc4d96b91f1d5') in 0.008506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.601403 seconds.
   path: Assets/Scenes/Level2.unity
   artifactKey: Guid(7a085f165520c5c459a0005e17cdb536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level2.unity using Guid(7a085f165520c5c459a0005e17cdb536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ef6d9cf40c08e2e6fdf12e6c41258d') in 0.017019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.149733 seconds.
-  path: Assets/Scenes/Level1.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f650b91f11071ee9c27560f8db804a') in 0.002367 seconds 
+Start importing Assets/Scenes/Level2.unity using Guid(7a085f165520c5c459a0005e17cdb536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910bbf3fafaf1e0fecf3274ce5f5d92e') in 0.007220 seconds 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003539 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.903 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.5 MB.
-System memory in use after: 212.7 MB.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.9 MB.
+System memory in use after: 137.2 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4136.
-Total: 2.518000 ms (FindLiveObjects: 0.391300 ms CreateObjectMapping: 0.221500 ms MarkObjects: 1.885900 ms  DeleteObjects: 0.018200 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4025.
+Total: 2.723400 ms (FindLiveObjects: 0.239900 ms CreateObjectMapping: 0.159400 ms MarkObjects: 2.312000 ms  DeleteObjects: 0.011100 ms)
 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003446 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.895 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.5 MB.
-System memory in use after: 212.8 MB.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.9 MB.
+System memory in use after: 137.2 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4140.
-Total: 2.190000 ms (FindLiveObjects: 0.262600 ms CreateObjectMapping: 0.171600 ms MarkObjects: 1.740300 ms  DeleteObjects: 0.014600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 124.492133 seconds.
-  path: Assets/Scenes/Level1.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ec3f94f1e4ceaa4b15171c1e860fc4') in 0.012975 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 76.708071 seconds.
-  path: Assets/Scenes/Level1.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3b4adbff4f950a3934766f477aa540') in 0.002485 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003559 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.890 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.5 MB.
-System memory in use after: 212.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4144.
-Total: 2.195900 ms (FindLiveObjects: 0.263700 ms CreateObjectMapping: 0.168300 ms MarkObjects: 1.747700 ms  DeleteObjects: 0.015500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003427 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.877 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.5 MB.
-System memory in use after: 212.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4148.
-Total: 2.906400 ms (FindLiveObjects: 0.292700 ms CreateObjectMapping: 0.187900 ms MarkObjects: 2.399300 ms  DeleteObjects: 0.025400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 133.216352 seconds.
-  path: Assets/Scenes/Level1.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add09bfb101dfcca9900ecfffc84e7da') in 0.013364 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004102 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.903 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.5 MB.
-System memory in use after: 212.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4152.
-Total: 2.942900 ms (FindLiveObjects: 0.454500 ms CreateObjectMapping: 0.329300 ms MarkObjects: 2.138400 ms  DeleteObjects: 0.019300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003589 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.895 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.5 MB.
-System memory in use after: 212.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4156.
-Total: 2.208600 ms (FindLiveObjects: 0.279000 ms CreateObjectMapping: 0.170700 ms MarkObjects: 1.741200 ms  DeleteObjects: 0.016800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003563 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.905 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.6 MB.
-System memory in use after: 212.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4160.
-Total: 2.293200 ms (FindLiveObjects: 0.261600 ms CreateObjectMapping: 0.162500 ms MarkObjects: 1.850500 ms  DeleteObjects: 0.017700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 167.116782 seconds.
-  path: Assets/Scenes/Level1.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe65d4f75ee5aed5910848076b1c858') in 0.011417 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003469 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.889 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.6 MB.
-System memory in use after: 212.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4164.
-Total: 2.300000 ms (FindLiveObjects: 0.271200 ms CreateObjectMapping: 0.166500 ms MarkObjects: 1.843800 ms  DeleteObjects: 0.017700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 191.387950 seconds.
-  path: Assets/Scenes/Level1.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b50fdb136f6c1b82a75f0140c287262') in 0.016655 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004897 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.886 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.6 MB.
-System memory in use after: 212.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4168.
-Total: 2.828200 ms (FindLiveObjects: 0.300100 ms CreateObjectMapping: 0.160900 ms MarkObjects: 2.340300 ms  DeleteObjects: 0.025600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003537 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.895 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.6 MB.
-System memory in use after: 212.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4172.
-Total: 2.233000 ms (FindLiveObjects: 0.269800 ms CreateObjectMapping: 0.185500 ms MarkObjects: 1.764100 ms  DeleteObjects: 0.012800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 118.405142 seconds.
-  path: Assets/Scenes/Level1.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f66f41efd57d54915148cc6151cff7') in 0.013607 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 121.986088 seconds.
-  path: Assets/Prefabs/Tom.prefab
-  artifactKey: Guid(dec1aaf0c0c11e44db73d3a54efded27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tom.prefab using Guid(dec1aaf0c0c11e44db73d3a54efded27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f34290a02516c8365d7cd57faa43bd') in 0.053814 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003458 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\GitHub\Snow_Boarder\Snow Boarder\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.892 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3525 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.6 MB.
-System memory in use after: 212.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4178.
-Total: 2.257900 ms (FindLiveObjects: 0.268500 ms CreateObjectMapping: 0.174100 ms MarkObjects: 1.798500 ms  DeleteObjects: 0.013800 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4025.
+Total: 3.601300 ms (FindLiveObjects: 0.287000 ms CreateObjectMapping: 0.207700 ms MarkObjects: 3.087000 ms  DeleteObjects: 0.018700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

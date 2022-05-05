@@ -31,11 +31,11 @@ public class CharacterSelectionUI : MonoBehaviour {
 
     private void Update() {
         if (selectedCharacter != null) {
-            selectedCharacter.localScale = Vector3.Lerp(selectedCharacter.localScale, new Vector3(1.2f, 1.2f, 1.2f), Time.deltaTime * 10);
+            selectedCharacter.localScale = Vector3.Lerp(selectedCharacter.localScale, new Vector3(1f, 1f, 1f), Time.deltaTime * 10);
         }
 
         if (prevCharacter != null) {
-            prevCharacter.localScale = Vector3.Lerp(prevCharacter.localScale, new Vector3(1f, 1f, 1f), Time.deltaTime * 10);
+            prevCharacter.localScale = Vector3.Lerp(prevCharacter.localScale, new Vector3(0.6f, 0.6f, 0.6f), Time.deltaTime * 10);
         }
     }
 }
